@@ -1,0 +1,38 @@
+.sideContainer{
+    width:25%;
+    padding:2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background: rgb(247, 246, 246);
+    height: 100vh;
+}
+
+.logo img{
+    top:0;
+}
+
+.pageLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9%;
+}
+
+.pageLinks button{
+    width:11rem;
+    height: 3.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    background:linear-gradient(180deg, rgb(220, 235, 250), rgb(203, 219, 247));
+    border: none;
+    color:rgb(25, 25, 44);
+    font-weight:800;
+}
+
+.pageLinks button .homebtn{
+    background-color:linear-gradient(180deg, rgb(220, 235, 250), rgb(130, 173, 247));
+}
+
